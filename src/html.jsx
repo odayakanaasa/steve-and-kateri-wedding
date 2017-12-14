@@ -45,6 +45,7 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
       </html>
     );
   }

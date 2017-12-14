@@ -6,12 +6,11 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    // const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="index-container">
         <Helmet title={config.siteTitle} />
-        <SEO postEdges={postEdges} />
-        <PostListing postEdges={postEdges} />
+        <h1>Steve & Kateri's Wedding</h1>
       </div>
     );
   }
@@ -19,7 +18,7 @@ class Index extends React.Component {
 
 export default Index;
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
@@ -44,3 +43,6 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+// <SEO postEdges={postEdges} />
+// <PostListing postEdges={postEdges} />
