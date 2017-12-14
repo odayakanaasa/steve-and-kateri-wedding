@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faTree } from '@fortawesome/fontawesome-pro-solid'
+import { faTree } from '@fortawesome/fontawesome-free-solid'
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
