@@ -9,8 +9,15 @@ html {
 }
 
 body {
+    color: #95ceba;
+    font-family: 'Forum', Helvetica Nue, sans-serif;
     margin: 0;
     padding: 20px;
-    font-family: 'Forum', Helvetica Nue, sans-serif;
+    text-align: center;
+}
+
+.index-container {
+    height: 80vh;
+    padding-top: 30vh;
 }
 

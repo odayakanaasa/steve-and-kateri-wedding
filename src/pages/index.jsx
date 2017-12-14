@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import FontAwesome from "react-fontawesome";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -10,6 +11,7 @@ class Index extends React.Component {
     return (
       <div className="index-container">
         <Helmet title={config.siteTitle} />
+        <FontAwesome name='tree' size='5x' />
         <h1>Steve & Kateri's Wedding</h1>
       </div>
     );
