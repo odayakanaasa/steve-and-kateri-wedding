@@ -17,21 +17,21 @@ module.exports = {
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription: "", // User description to display in the author segment.
   userLinks: [
-    {
-      label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
-      iconClassName: "fa fa-github"
-    },
-    {
-      label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
-      iconClassName: "fa fa-twitter"
-    },
-    {
-      label: "Email",
-      url: "mailto:vagr9k@gmail.com",
-      iconClassName: "fa fa-envelope"
-    }
+    // {
+    //   label: "GitHub",
+    //   url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+    //   iconClassName: "fa fa-github"
+    // },
+    // {
+    //   label: "Twitter",
+    //   url: "https://twitter.com/Vagr9K",
+    //   iconClassName: "fa fa-twitter"
+    // },
+    // {
+    //   label: "Email",
+    //   url: "mailto:vagr9k@gmail.com",
+    //   iconClassName: "fa fa-envelope"
+    // }
   ],
   copyright: "Copyright © 2017 | Steve & Kateri's Wedding | Designed by {steve frost}", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
