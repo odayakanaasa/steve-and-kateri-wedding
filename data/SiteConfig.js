@@ -4,7 +4,7 @@ module.exports = {
   siteTitleAlt: "Steve & Kateri's Wedding - July 21st 2017", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://steveandkateri.com", // Domain of your website without pathPrefix.
-  pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Our wedding website with venue info, dates, locations, festivities, and all the photos to enjoy after the glorious day!", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights

@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
-import FontAwesome from "react-fontawesome";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faTree } from '@fortawesome/fontawesome-pro-solid'
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -11,7 +12,7 @@ class Index extends React.Component {
     return (
       <div className="index-container">
         <Helmet title={config.siteTitle} />
-        <FontAwesome name='tree' size='5x' />
+        <FontAwesomeIcon icon={faTree} size="6x" />
         <h1>Steve & Kateri's Wedding</h1>
       </div>
     );
