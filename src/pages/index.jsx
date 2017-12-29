@@ -5,6 +5,7 @@ import { faTree } from '@fortawesome/fontawesome-free-solid'
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
+import nyc from "../images/newyorkskyline.svg";
 
 class Index extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Index extends React.Component {
         <Helmet title={config.siteTitle} />
         <FontAwesomeIcon icon={faTree} size="6x" />
         <h1>Steve & Kateri's Wedding</h1>
+        <img src={nyc} />
       </div>
     );
   }
