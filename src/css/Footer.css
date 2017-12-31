@@ -1,0 +1,9 @@
+Footer {
+    font-size: 0.75em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
