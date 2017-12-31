@@ -28,25 +28,23 @@ h2 {
     padding: 0.25em 0;
 }
 
-.half-height-container {
-    height: 50vh;
-}
-
 .home-landing {
     background: url('../images/border-bottom.png') repeat-x bottom center;
     background-size: contain;
+    height: 300px;
     margin: 0 auto;
     padding: 10px 20px;
+    position: relative;
 }
 
 .home-landing-text {
-    margin-top: 10vh;
+    margin-top: 50px;
 }
 
 .home-details {
     background-color: #a8e0c7;
     color: white;
-    height: 50vh;
+    height: 300px;
     padding: 10px 20px;
 }
 
@@ -60,12 +58,24 @@ h2 {
 
 .bottomLeft {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -5px;
+    left: 5px;
+}
+
+.bottomLeft img {
+    height: 50px;
+}
+
+.bottomLeft img:nth-child(odd), .bottomRight img:nth-child(odd) {
+    height: 60px;
 }
 
 .bottomRight {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -5px;
+    right: -5px;
+}
+
+.bottomRight img {
+    height: 100px;
 }

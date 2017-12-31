@@ -3,6 +3,13 @@ import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
+import tree1 from "../images/tree1.svg";
+import tree2 from "../images/tree2.svg";
+import tree3 from "../images/tree3.svg";
+import tree4 from "../images/tree4.svg";
+import tree5 from "../images/tree5.svg";
+import tree6 from "../images/tree6.svg";
+import tree7 from "../images/tree7.svg";
 
 class Index extends Component {
   render() {
@@ -15,6 +22,21 @@ class Index extends Component {
             <h1>Steve & Kateri's Wedding</h1>
             <h2>July 21, 2018</h2>
             <h2>Hastings, MN</h2>
+
+            <div className="trees">
+              <div className="bottomLeft">
+                <img src={tree2} />
+                <img src={tree6} />
+                <img src={tree4} />
+              </div>
+
+              <div className="bottomRight">
+                <img src={tree5} />
+                <img src={tree1} />
+                <img src={tree7} />
+              </div>
+            </div>
+
           </div>
         </div>
         <div className="home-details">
