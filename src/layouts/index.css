@@ -6,20 +6,66 @@
 
 html {
     height: 100%;
+    font-size: 20px;
 }
 
 body {
-    background-color: #E3DCCF;
-    background-image: url('../images/backgroundTrees.svg');
-    background-size: cover;
-    color: #95ceba;
+    background-color: #ffffff;
+    color: #62bfac;
     font-family: 'Forum', Helvetica Nue, sans-serif;
     margin: 0;
-    padding: 20px;
+}
+
+h1 {
+    font-size: 1.5rem;
     text-align: center;
+    padding: 0.5em 0;
 }
 
-.index-container {
-    height: 80vh;
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.25em 0;
 }
 
+.half-height-container {
+    height: 50vh;
+}
+
+.home-landing {
+    background: url('../images/border-bottom.png') repeat-x bottom center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.home-landing-text {
+    margin-top: 10vh;
+}
+
+.home-details {
+    background-color: #a8e0c7;
+    color: white;
+    height: 50vh;
+    padding: 10px 20px;
+}
+
+.home-details li {
+    margin: 10px 0;
+}
+
+.home-details h1 {
+    color: #62bfac;
+}
+
+.bottomLeft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottomRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
