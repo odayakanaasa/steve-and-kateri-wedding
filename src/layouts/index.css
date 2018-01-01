@@ -9,12 +9,6 @@ html {
     font-size: 20px;
 }
 
-@media screen and (min-width: 600px) {
-    html {
-        font-size: 24px;
-    }
-}
-
 body {
     background-color: #ffffff;
     color: #62bfac;
@@ -40,7 +34,6 @@ h2 {
     background-size: contain;
     display: flex;
     flex-direction: column;
-    height: 300px;
     justify-content: space-between;
     margin: 0 auto -1px auto;
     padding: 0 20px;
@@ -48,28 +41,13 @@ h2 {
 }
 
 .home-landing-text {
-    margin-top: 50px;
-}
-
-.home-details {
-    background-color: #a8e0c7;
-    color: white;
-    height: 300px;
-    padding: 10px 20px;
-}
-
-.home-details li {
-    margin: 10px 0;
-}
-
-.home-details h1 {
-    color: #62bfac;
+    margin: 25px 0;
 }
 
 .trees {
     display: flex;
     justify-content: space-between;
-    max-width: 500px;
+    max-width: 850px;
     width: 100%;
 }
 
@@ -81,4 +59,72 @@ h2 {
 .trees-left img:nth-child(odd), .trees-right img:nth-child(even) {
     height: 4rem;
     margin-bottom: -25px;
+}
+
+.home-details {
+    align-items: center;
+    background-color: #a8e0c7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.home-details h1 {
+    color: #62bfac;
+}
+
+.tiles {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin-top: 25px;
+    max-width: 750px;
+    justify-content: space-between;
+}
+
+.tiles li {
+    display: block;
+    margin: 20px;
+    flex-basis: calc(50% - 40px);
+    z-index: 2;
+}
+
+.tiles li:hover {
+    cursor: pointer;
+}
+
+.tiles li:hover img {
+    opacity: 0.8;
+}
+
+.tiles img {
+    width: 100%;
+    height: auto;
+}
+
+.img-description {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+.tiles li:hover .img-description {
+    display: inline;
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 28px;
+    }
+
+    .tiles li {
+        margin: 20px;
+        flex-basis: calc(33% - 40px);
+    }
 }
