@@ -22,28 +22,26 @@ class Index extends Component {
             <h1>Steve & Kateri's Wedding</h1>
             <h2>July 21, 2018</h2>
             <h2>Hastings, MN</h2>
+          </div>
 
-            <div className="trees">
-              <div className="bottomLeft">
-                <img src={tree2} />
-                <img src={tree6} />
-                <img src={tree4} />
-              </div>
-
-              <div className="bottomRight">
-                <img src={tree5} />
-                <img src={tree1} />
-                <img src={tree7} />
-              </div>
+          <div className="trees">
+            <div className="trees-left">
+              <img src={tree2} />
+              <img src={tree6} />
+              <img src={tree4} />
             </div>
 
+            <div className="trees-right">
+              <img src={tree5} />
+              <img src={tree1} />
+              <img src={tree7} />
+            </div>
           </div>
         </div>
         <div className="home-details">
           <h1>Details</h1>
           <ul>
             <li>Where: Schaar's Bluff Gathering Center</li>
-            <li>Huh: Hastings, MN</li>
             <li>When: July 21, 2018</li>
             <li>Accommodations: Info on Feb 1</li>
           </ul>

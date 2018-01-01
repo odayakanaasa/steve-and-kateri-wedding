@@ -9,6 +9,12 @@ html {
     font-size: 20px;
 }
 
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 24px;
+    }
+}
+
 body {
     background-color: #ffffff;
     color: #62bfac;
@@ -17,23 +23,27 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     text-align: center;
     padding: 0.5em 0;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1em;
     text-align: center;
     padding: 0.25em 0;
 }
 
 .home-landing {
+    align-items: center;
     background: url('../images/border-bottom.png') repeat-x bottom center;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
     height: 300px;
-    margin: 0 auto;
-    padding: 10px 20px;
+    justify-content: space-between;
+    margin: 0 auto -1px auto;
+    padding: 0 20px;
     position: relative;
 }
 
@@ -56,26 +66,19 @@ h2 {
     color: #62bfac;
 }
 
-.bottomLeft {
-    position: absolute;
-    bottom: -5px;
-    left: 5px;
+.trees {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
 }
 
-.bottomLeft img {
-    height: 50px;
+.trees-left img, .trees-right img {
+    height: 3rem;
+    margin-bottom: -15px;
 }
 
-.bottomLeft img:nth-child(odd), .bottomRight img:nth-child(odd) {
-    height: 60px;
-}
-
-.bottomRight {
-    position: absolute;
-    bottom: -5px;
-    right: -5px;
-}
-
-.bottomRight img {
-    height: 100px;
+.trees-left img:nth-child(odd), .trees-right img:nth-child(even) {
+    height: 4rem;
+    margin-bottom: -25px;
 }
