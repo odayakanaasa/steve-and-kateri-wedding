@@ -10,8 +10,15 @@ import tree4 from "../images/tree4.svg";
 import tree5 from "../images/tree5.svg";
 import tree6 from "../images/tree6.svg";
 import tree7 from "../images/tree7.svg";
+import venue from "../images/venue.svg";
+import directions from "../images/directions.svg";
+import hotel from "../images/hotel.svg";
+import rsvp from "../images/rsvp.svg";
+import story from "../images/story.svg";
+import registry from "../images/registry.svg";
 
 class Index extends Component {
+
   render() {
     // const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
@@ -39,11 +46,31 @@ class Index extends Component {
           </div>
         </div>
         <div className="home-details">
-          <h1>Details</h1>
-          <ul>
-            <li>Where: Schaar's Bluff Gathering Center</li>
-            <li>When: July 21, 2018</li>
-            <li>Accommodations: Info on Feb 1</li>
+          <ul className="tiles">
+            <li>
+              <h2>Venue</h2>
+              <img src={venue} />
+            </li>
+            <li>
+              <h2>Directions</h2>
+              <img src={directions} />
+            </li>
+            <li>
+              <h2>Hotel</h2>
+              <img src={hotel} />
+            </li>
+            <li>
+              <h2>RSVP</h2>
+              <img src={rsvp} />
+            </li>
+            <li>
+              <h2>Our Story</h2>
+              <img src={story} />
+            </li>
+            <li>
+              <h2>Registry</h2>
+              <img src={registry} />
+            </li>
           </ul>
         </div>
       </div>
