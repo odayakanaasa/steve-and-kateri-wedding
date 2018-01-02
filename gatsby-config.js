@@ -23,7 +23,14 @@ module.exports = {
       options: {
         name: "posts",
         path: `${__dirname}/content/${config.postDir}`
-      }
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images`
+      },
     },
     {
       resolve: "gatsby-transformer-remark",
