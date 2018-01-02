@@ -11,12 +11,6 @@ import tree4 from "../images/tree4.svg";
 import tree5 from "../images/tree5.svg";
 import tree6 from "../images/tree6.svg";
 import tree7 from "../images/tree7.svg";
-import venue from "../images/venue.svg";
-import directions from "../images/directions.svg";
-import hotel from "../images/hotel.svg";
-import rsvp from "../images/rsvp.svg";
-import story from "../images/story.svg";
-import registry from "../images/registry.svg";
 import "../css/home.css";
 
 class Index extends Component {
@@ -52,37 +46,37 @@ class Index extends Component {
             <li>
               <Link to="/venue">
                 <h2>Venue</h2>
-                <img src={venue} />
+                <img src="icons/venue.svg" />
               </Link>
             </li>
             <li>
               <Link to="/directions">
                 <h2>Directions</h2>
-                <img src={directions} />
+                <img src="icons/directions.svg" />
               </Link>
             </li>
             <li>
               <Link to="/hotel">
                 <h2>Hotel</h2>
-                <img src={hotel} />
+                <img src="icons/hotel.svg" />
               </Link>
             </li>
             <li>
               <Link to="/rsvp">
                 <h2>RSVP</h2>
-                <img src={rsvp} />
+                <img src="icons/rsvp.svg" />
               </Link>
             </li>
             <li>
               <Link to="/our-story">
                 <h2>Our Story</h2>
-                <img src={story} />
+                <img src="icons/story.svg" />
               </Link>
             </li>
             <li>
               <Link to="/registry">
                 <h2>Registry</h2>
-                <img src={registry} />
+                <img src="icons/registry.svg" />
               </Link>
             </li>
           </ul>
