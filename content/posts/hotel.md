@@ -2,7 +2,7 @@
 title: "Hotel"
 cover: ""
 date: "01/01/2018"
-icon: "something"
+icon: "icons/hotel.svg"
 ---
 
 Info coming soon!Info coming soon!

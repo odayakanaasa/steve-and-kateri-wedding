@@ -2,7 +2,7 @@
 title: "Our Story"
 cover: ""
 date: "01/01/2018"
-icon: "something"
+icon: "icons/our-story.svg"
 ---
 
 Info coming soon!Info coming soon!
