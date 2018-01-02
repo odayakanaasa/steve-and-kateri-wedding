@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
+import Link from "gatsby-link";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -16,6 +17,7 @@ import hotel from "../images/hotel.svg";
 import rsvp from "../images/rsvp.svg";
 import story from "../images/story.svg";
 import registry from "../images/registry.svg";
+import "../css/home.css";
 
 class Index extends Component {
 
@@ -48,28 +50,40 @@ class Index extends Component {
         <div className="home-details">
           <ul className="tiles">
             <li>
-              <h2>Venue</h2>
-              <img src={venue} />
+              <Link to="/venue">
+                <h2>Venue</h2>
+                <img src={venue} />
+              </Link>
             </li>
             <li>
-              <h2>Directions</h2>
-              <img src={directions} />
+              <Link to="/directions">
+                <h2>Directions</h2>
+                <img src={directions} />
+              </Link>
             </li>
             <li>
-              <h2>Hotel</h2>
-              <img src={hotel} />
+              <Link to="/hotel">
+                <h2>Hotel</h2>
+                <img src={hotel} />
+              </Link>
             </li>
             <li>
-              <h2>RSVP</h2>
-              <img src={rsvp} />
+              <Link to="/rsvp">
+                <h2>RSVP</h2>
+                <img src={rsvp} />
+              </Link>
             </li>
             <li>
-              <h2>Our Story</h2>
-              <img src={story} />
+              <Link to="/our-story">
+                <h2>Our Story</h2>
+                <img src={story} />
+              </Link>
             </li>
             <li>
-              <h2>Registry</h2>
-              <img src={registry} />
+              <Link to="/registry">
+                <h2>Registry</h2>
+                <img src={registry} />
+              </Link>
             </li>
           </ul>
         </div>

@@ -3,15 +3,14 @@ import Helmet from "react-helmet";
 import About from "../components/About/About";
 import config from "../../data/SiteConfig";
 
-class AboutPage extends Component {
+class Venue extends Component {
   render() {
     return (
-      <div className="about-container">
-        <Helmet title={`About | ${config.siteTitle}`} />
-        <About />
+      <div className="venue-container">
+        <Helmet title={`Venue | ${config.siteTitle}`} />
       </div>
     );
   }
 }
 
-export default AboutPage;
+export default Venue;
