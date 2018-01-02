@@ -10,10 +10,15 @@ html {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #a8e0c7;
     color: #62bfac;
     font-family: 'Forum', Helvetica Nue, sans-serif;
+    height: 100%;
     margin: 0;
+}
+
+div#___gatsby {
+    height: 100%;
 }
 
 h1 {
@@ -28,9 +33,16 @@ h2 {
     padding: 0.25em 0;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .home-landing {
     align-items: center;
-    background: url('../images/border-bottom.png') repeat-x bottom center;
+    background: #fff url('../images/border-bottom.png') repeat-x bottom center;
     background-size: contain;
     display: flex;
     flex-direction: column;

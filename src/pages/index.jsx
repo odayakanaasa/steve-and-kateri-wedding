@@ -24,7 +24,7 @@ class Index extends Component {
     return (
       <div className="home-container">
         <Helmet title={config.siteTitle} />
-        <div className="half-height-container home-landing">
+        <div className="home-landing">
           <div className="home-landing-text">
             <h1>Steve & Kateri's Wedding</h1>
             <h2>July 21, 2018</h2>

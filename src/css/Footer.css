@@ -1,9 +1,8 @@
 Footer {
-    font-size: 0.75em;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    padding: 1em;
+    background-color: #79dfb1;
+    color: white;
+    font-size: 0.6em;
     text-align: center;
+    padding: 10px 0;
     width: 100%;
 }
