@@ -22,7 +22,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "posts",
-        path: `${__dirname}/content/${config.blogPostDir}`
+        path: `${__dirname}/content/${config.postDir}`
       }
     },
     {
@@ -116,7 +116,6 @@ module.exports = {
             serialize(ctx) {
               const rssMetadata = ctx.query.site.siteMetadata.rssMetadata;
               return ctx.query.allMarkdownRemark.edges.map(edge => ({
-                categories: edge.node.frontmatter.tags,
                 date: edge.node.frontmatter.date,
                 title: edge.node.frontmatter.title,
                 description: edge.node.excerpt,
@@ -142,8 +141,6 @@ module.exports = {
                       title
                       cover
                       date
-                      category
-                      tags
                     }
                   }
                 }
