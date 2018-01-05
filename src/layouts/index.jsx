@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import "./reset.css";
 import "./index.css";
+import "./"
 import Footer from "../components/Footer/Footer";
 
 export default class MainLayout extends React.Component {
