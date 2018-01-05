@@ -23,9 +23,9 @@ They couldn't be more right! The park & venue is perched over the Mississippi ri
 ![gathering-center-front-river-view](https://steveandkateri.com/images/schaarsbluff9.jpg)
 ![gathering-center-front](https://steveandkateri.com/images/schaarsbluff6.jpg)
 
-In addition to the kids running around in this vast area, we also plan to have some ladder golf, bags, and other party games setup. Have ideas? Let us know! You're encouraged to bring whatever games you enjoy on a summers day out. [Kites are an especially popular option](https://www.twincities.com/2008/05/29/family-outings-fly-a-kite-at-spring-lake-park-reserve-dakota-county/) at the park due hefty gusts of wind as a result of being pitched above the river on a bluff.
+In addition to the kids running around in this vast area, we also plan to have some ladder golf, bags, and other party games setup. Have ideas? Let us know! You're encouraged to bring whatever games you enjoy on a summers day out. [Kites are an especially popular option](https://www.twincities.com/2008/05/29/family-outings-fly-a-kite-at-spring-lake-park-reserve-dakota-county/) at the park with the bluff's gusty winds.
 
-Once the day turns into night, there in a cozy fire pit w/ seating right outside the main room where we can gather to roast s’mores & recap the festivities. There is some hidden audial delights going on in this area thanks to the clever architecture, but we'll leave that for you to discover!
+Once the day turns into night, there is a cozy fire pit w/ seating right outside the main room where we can gather to roast s’mores & recap the festivities. There is some hidden audial delights going on in this area thanks to the clever architecture, but we'll leave that for you to discover!
 
 
 ![gathering-center-wide-view](https://steveandkateri.com/images/schaarsbluff10.jpg)
