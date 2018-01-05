@@ -40,6 +40,15 @@ h2 {
     height: 100%;
 }
 
+p {
+    font-size: 18px;
+}
+
+.post-container a, .post-container a:visited {
+    color: #4e9a8b;
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 600px) {
     html {
         font-size: 28px;
