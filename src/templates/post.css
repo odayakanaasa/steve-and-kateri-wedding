@@ -21,9 +21,29 @@
     width: 85%;
 }
 
-.icon-top-right {
+.post-container a, .post-container a:visited {
+    color: #4e9a8b;
+    text-decoration: underline;
+}
+
+.post-container img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+.post-container img.icon-top-right {
     float: right;
     margin: -3rem -3rem 0 0;
     transform: rotate(25deg);
     width: 3rem;
+}
+
+ol, ul {
+    list-style: circle;
+    margin: 0 0 0 1rem;
+}
+
+div#disqus_thread {
+    margin-top: 50px;
 }
