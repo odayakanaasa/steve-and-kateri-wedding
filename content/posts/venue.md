@@ -27,6 +27,7 @@ In addition to the kids running around in this vast area, we also plan to have s
 
 Once the day turns into night, there in a cozy fire pit w/ seating right outside the main room where we can gather to roast s’mores & recap the festivities. There is some hidden audial delights going on in this area thanks to the clever architecture, but we'll leave that for you to discover!
 
+
 ![gathering-center-wide-view](https://steveandkateri.com/images/schaarsbluff10.jpg)
 
 Well, you made it this far so you must be as interested in The Gathering Center as we are. Here's some cool tidbits about it.
