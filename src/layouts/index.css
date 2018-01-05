@@ -49,6 +49,16 @@ p {
     text-decoration: underline;
 }
 
+.post-container img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+#disqus-thread {
+    margin-top: 50px;
+}
+
 @media screen and (min-width: 600px) {
     html {
         font-size: 28px;
