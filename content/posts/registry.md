@@ -5,4 +5,4 @@ date: "01/01/2018"
 icon: "/icons/registry.svg"
 ---
 
-Info coming soon!Info coming soon!
+The registry hasn't been chosen yet but when it has, it will be listed here.
