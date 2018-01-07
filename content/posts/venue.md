@@ -39,3 +39,7 @@ Well, you made it this far so you must be as interested in The Gathering Center 
 * A curious teenager stumbled across American Indian artifacts in 1947 which were later identified to be from several different tribes throughout the land's history. Some of these artifacts are preserved in the lobby of the Gathering Center where you'll see them on our wedding day!
 
 ![gathering-center-front-night](https://steveandkateri.com/images/schaarsbluff16.jpg)
+
+_All Photos Courtesy of Pete Sieger_
+
+[_See more of his amazing work_](http://siegerarchphoto.com/)
