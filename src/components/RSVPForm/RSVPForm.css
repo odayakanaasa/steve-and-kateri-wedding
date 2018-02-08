@@ -1,0 +1,60 @@
+.rsvp-form {
+    margin: 50px auto;
+    width: 50%;
+}
+
+.rsvp-form small {
+    font-size: 18px;
+}
+
+.rsvp-form li {
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.rsvp-form input[type='text'],
+.rsvp-form input[type='number'] {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    max-width: 300px;
+    padding: 20px 10px;
+    transition: box-shadow 250ms;
+}
+
+.rsvp-form input[type='text']:focus {
+    box-shadow: 0.025rem 0.1rem 0.2rem lightgray;
+    outline: none;
+}
+
+.rsvp-form input[type='radio'] {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    height: 30px;
+    margin-right: 10px;
+    max-width: 300px;
+    padding: 20px 10px;
+}
+
+.rsvp-form button {
+    border-radius: 5px;
+    background-color: #4d9687;
+    color: white;
+    font-family: 'Forum', 'Helvetica Nue', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.rsvp-form button:hover {
+    outline: none;
+    box-shadow: 0.025rem 0.1rem 0.2rem lightgray;
+}
