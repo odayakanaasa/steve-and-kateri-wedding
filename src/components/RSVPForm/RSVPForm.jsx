@@ -36,26 +36,38 @@ const RSVPForm = () => (
         <label htmlFor="party-count">
                     How many people will be in your party including yourself?
         </label>
-        <input
-          type="number"
-          name="partycount"
-          id="partycount"
-          min="1"
-          max="6"
-        />
+        <select name="party-count">
+          <optgroup label="Party Count">
+            <option value="1" selected>
+                            1
+            </option>
+            <option value="2">2</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="5">6</option>
+          </optgroup>
+        </select>
       </li>
 
       <li>
         <label htmlFor="child-count">
                     How many children are in your party?
         </label>
-        <input
-          type="number"
-          name="child-count"
-          id="child-count"
-          min="0"
-          max="6"
-        />
+        <select name="children-count">
+          <optgroup label="Number of Children">
+            <option value="1" selected>
+                            0
+            </option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </optgroup>
+        </select>
       </li>
 
       <button type="submit">Submit Your RSVP</button>
