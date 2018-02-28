@@ -5,7 +5,7 @@ date: "01/01/2018"
 icon: "/icons/hotel.svg"
 ---
 
-We have found a hotel! We were able to secure a block of rooms at the Hampton Inn Minneapolis/Eagan. The rate per night is $109 plus tax and can be reserved by either calling and mentioning the Frost wedding or by reserving at the link below. If you're able to find a better rate online using a different website or a coupon code feel free to go that route, but please let us know so we can assign you to our block.
+We were able to secure a block of rooms at the Hampton Inn Minneapolis/Eagan. The rate per night is $109 plus tax and can be reserved by either calling and mentioning the Frost wedding or by reserving at the link below. If you're able to find a better rate online using a different website or a coupon code feel free to go that route, but please let us know so we can assign you to our block.
 
 [Reserve Your Room](http://hamptoninn.hilton.com/en/hp/groups/personalized/M/MSPEGHX-CFW-20180720/index.jhtml;jsessionid=T42TFF3LRTHL4CSQA0Q3MQQ)
 
@@ -20,7 +20,7 @@ If you'd like other options, there's a ton of other hotels in the nearby area. P
 
 The Hampton Inn has free breakfast, pool, hot tub, free parking, free wireless internet, AND most importantly, a free shuttle to/from the MSP airport, Mall of America, and Twin Cities Premium Outlets from 4am-11pm. With that being said, if you're flying in, you won't need to rent a car unless you'd really like to as we'll also have a shuttle to/from the wedding + there's Lyft/Uber available in the area.
 
-There's TONS of things to do in this area. For shopping there's the Mall of America (has a rollercoaster!) and the Twin Cities Premium Outlets - both of which can be reached by the shuttle. If you prefer the outdoors, Lebanon Hills Regional Park is 5-7 miles (depending on where you enter) South of the hotel which houses a ZOO, tons of hiking/biking trails and a golf course.
+There's a *ton* of shopping, dining, and activities in this area. For shopping there's the Mall of America (has a rollercoaster!) and the Twin Cities Premium Outlets - both of which can be reached by the shuttle. If you prefer the outdoors, Lebanon Hills Regional Park is 5-7 miles (depending on where you enter) South of the hotel which houses a ZOO, tons of hiking/biking trails and a golf course.
 
 And for eating/drinking there's options steps from the hotel!
 
