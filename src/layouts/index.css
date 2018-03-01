@@ -33,6 +33,15 @@ h2 {
     padding: 0.25em 0;
 }
 
+h3 {
+    margin: 0.25rem 0;
+}
+
+h4 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -40,9 +49,10 @@ h2 {
     height: 100%;
 }
 
-p {
-    font-size: 18px;
-    margin-bottom: 15px;
+p, ul {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    line-height: 1.25;
 }
 
 @media screen and (min-width: 600px) {
