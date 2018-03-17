@@ -25,14 +25,24 @@
     line-height: 20px;
     height: 30px;
     margin-top: 10px;
-    margin-bottom: 25px;
     margin-right: 10px;
     max-width: 300px;
     padding: 20px 10px;
     transition: box-shadow 250ms;
 }
 
-.rsvp-form input[type='text']:focus {
+.rsvp-form textarea {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 150px;
+    line-height: 22px;
+    max-width: 500px;
+    padding: 10px;
+    transition: box-shadow 250ms;
+}
+
+.rsvp-form input[type='text']:focus, .rsvp-form textarea:focus {
     box-shadow: 0.025rem 0.1rem 0.2rem lightgray;
     outline: none;
 }
