@@ -8,6 +8,7 @@ const RSVPForm = () => (
       method="POST"
       className="rsvp-form"
       data-netlify="true"
+      name="rsvp-form"
     >
       <li>
         <label htmlFor="name">What's your name?</label>
