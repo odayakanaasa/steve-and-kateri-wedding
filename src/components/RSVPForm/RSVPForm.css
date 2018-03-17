@@ -66,3 +66,8 @@
     outline: none;
     box-shadow: 0.025rem 0.1rem 0.2rem lightgray;
 }
+
+input[type='radio'] + label {
+    font-size: 22px;
+    vertical-align: text-top;
+}
