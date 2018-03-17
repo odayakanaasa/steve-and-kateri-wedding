@@ -21,22 +21,28 @@ const RSVPForm = () => (
       <li>
         <label htmlFor="attending">Will you be joining us?</label>
         <fieldset>
-          <input type="radio" name="attending" value="yes" id="yes" />
+          <input type="radio" 
+            name="attending" 
+            value="yes" 
+            id="yes" 
+          />
           <label htmlFor="yes">I'm There</label>
+
           <br />
+
           <input
             type="radio"
             name="attending"
-            value="sorry"
-            id="sorry"
+            value="no"
+            id="no"
           />
-          <label htmlFor="sorry">Can't Make It</label>
+          <label htmlFor="no">Can't Make It</label>
         </fieldset>
       </li>
 
       <li>
         <label htmlFor="party-count">
-                    How many people will be in your party including yourself?
+          How many people will be in your party including yourself?
         </label>
         <select name="party-count">
           <optgroup label="Party Count">
@@ -74,7 +80,6 @@ const RSVPForm = () => (
         </label>
         <textarea name="guest-names" id="guest-names" />
       </li>
-
       <button type="submit">Submit Your RSVP</button>
     </form>
   </div>
