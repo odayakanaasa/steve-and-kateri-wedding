@@ -4,9 +4,10 @@ import './RSVPForm.css';
 const RSVPForm = () => (
   <div>
     <form
-      action="https://formspree.io/hello@steveafrost.com"
+      action="/rsvp-confirmation"
       method="POST"
       className="rsvp-form"
+      data-netlify="true"
     >
       <li>
         <label htmlFor="name">What's your name?</label>
@@ -20,7 +21,7 @@ const RSVPForm = () => (
         <label htmlFor="attending">Will you be joining us?</label>
         <fieldset>
           <input type="radio" name="attending" value="yes" id="yes" />
-          <label htmlFor="yes">Yes</label>
+          <label htmlFor="yes">I'm There</label>
           <br />
           <input
             type="radio"
@@ -28,7 +29,7 @@ const RSVPForm = () => (
             value="sorry"
             id="sorry"
           />
-          <label htmlFor="sorry">Sorry</label>
+          <label htmlFor="sorry">Can't Make It</label>
         </fieldset>
       </li>
 
@@ -38,9 +39,7 @@ const RSVPForm = () => (
         </label>
         <select name="party-count">
           <optgroup label="Party Count">
-            <option value="1" selected>
-                            1
-            </option>
+            <option value="1" selected>1</option>
             <option value="2">2</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -57,9 +56,7 @@ const RSVPForm = () => (
         </label>
         <select name="children-count">
           <optgroup label="Number of Children">
-            <option value="1" selected>
-                            0
-            </option>
+            <option value="0" selected>0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="2">2</option>
