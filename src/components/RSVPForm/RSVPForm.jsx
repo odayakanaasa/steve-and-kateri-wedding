@@ -4,7 +4,7 @@ import './RSVPForm.css';
 const RSVPForm = () => (
   <div>
     <form
-      action="/rsvp-confirmation"
+      action="/rsvp-confirmation/"
       method="POST"
       className="rsvp-form"
       data-netlify="true"
